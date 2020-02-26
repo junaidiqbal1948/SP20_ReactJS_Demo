@@ -2,13 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import CompVar from "./components/MyComponent";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <CompVar />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I have modified App Component
         </p>
         <a
           className="App-link"

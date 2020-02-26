@@ -4,6 +4,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// function CompVar() {
+//     return (
+//         <div>
+//             <h1>This is basic Comp Multiline</h1>
+//             <h2>This is child Comp</h2>
+//         </div>
+//     );
+// };
+
+// ReactDOM.render(<CompVar />, document.getElementById('root'));
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
