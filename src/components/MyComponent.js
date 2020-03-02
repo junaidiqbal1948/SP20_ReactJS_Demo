@@ -6,9 +6,11 @@ function CompVar() {
     const alertMe = (msg) => {
         alert(msg);
     }
+    const val = 10;
     return (
         <div>
-            <MyComp2 />
+            <MyComp2 text="Text to be displayed" value={val} />
+            <MyComp2 text="2nd Time Called" value={78} />
             <h1>This is basic Comp Multiline</h1>
             <h2>This is child Comp</h2>
             <button onClick={() => { alertMe('Called from onClick') }} >Button 1</button>
